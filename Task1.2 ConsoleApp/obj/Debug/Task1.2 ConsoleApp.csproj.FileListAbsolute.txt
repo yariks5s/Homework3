@@ -1,0 +1,6 @@
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task1.2 ConsoleApp\bin\Debug\Task1.2 ConsoleApp.exe
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task1.2 ConsoleApp\bin\Debug\Task1.2 ConsoleApp.pdb
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task1.2 ConsoleApp\obj\Debug\Task1.2 ConsoleApp.csprojAssemblyReference.cache
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task1.2 ConsoleApp\obj\Debug\Task1.2 ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task1.2 ConsoleApp\obj\Debug\Task1.2 ConsoleApp.exe
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task1.2 ConsoleApp\obj\Debug\Task1.2 ConsoleApp.pdb

@@ -1,0 +1,10 @@
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task1.2 WinFormsApp\bin\Debug\Task1.2 WinFormsApp.exe.config
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task1.2 WinFormsApp\bin\Debug\Task1.2 WinFormsApp.exe
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task1.2 WinFormsApp\bin\Debug\Task1.2 WinFormsApp.pdb
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task1.2 WinFormsApp\obj\Debug\Task1.2 WinFormsApp.csprojAssemblyReference.cache
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task1.2 WinFormsApp\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task1.2 WinFormsApp\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task1.2 WinFormsApp\obj\Debug\Task1.2 WinFormsApp.csproj.GenerateResource.cache
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task1.2 WinFormsApp\obj\Debug\Task1.2 WinFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task1.2 WinFormsApp\obj\Debug\Task1.2 WinFormsApp.exe
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task1.2 WinFormsApp\obj\Debug\Task1.2 WinFormsApp.pdb

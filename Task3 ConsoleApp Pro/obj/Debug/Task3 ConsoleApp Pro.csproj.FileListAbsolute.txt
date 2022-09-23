@@ -1,0 +1,9 @@
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task3 ConsoleApp Pro\bin\Debug\Task3_ConsoleApp_Pro.exe
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task3 ConsoleApp Pro\bin\Debug\Task3_ConsoleApp_Pro.pdb
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task3 ConsoleApp Pro\bin\Debug\Newtonsoft.Json.dll
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task3 ConsoleApp Pro\bin\Debug\Newtonsoft.Json.xml
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task3 ConsoleApp Pro\obj\Debug\Task3 ConsoleApp Pro.csprojAssemblyReference.cache
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task3 ConsoleApp Pro\obj\Debug\Task3 ConsoleApp Pro.csproj.CoreCompileInputs.cache
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task3 ConsoleApp Pro\obj\Debug\Task3 ConsoleApp Pro.csproj.CopyComplete
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task3 ConsoleApp Pro\obj\Debug\Task3_ConsoleApp_Pro.exe
+C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task3 ConsoleApp Pro\obj\Debug\Task3_ConsoleApp_Pro.pdb
