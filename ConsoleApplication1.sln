@@ -1,8 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{7060A7E8-38F1-4523-820E-9D4CEED89096}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.2 ConsoleApp", "Task1.2 ConsoleApp\Task1.2 ConsoleApp.csproj", "{7060A7E8-38F1-4523-820E-9D4CEED89096}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{C47431DE-9C64-4AD6-9AF5-393C3DC26EDF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.2 WinFormsApp", "Task1.2 WinFormsApp\Task1.2 WinFormsApp.csproj", "{C47431DE-9C64-4AD6-9AF5-393C3DC26EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2.2 ConsoleApp", "Task2.2 ConsoleApp\Task2.2 ConsoleApp.csproj", "{F8FC3EAB-9E4B-46C2-8C04-58FFB182E3EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3 ConsoleApp", "Task3 ConsoleApp\Task3 ConsoleApp.csproj", "{8D5B99A8-9E55-4713-91B4-8C0888C1031D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +22,13 @@ Global
 		{C47431DE-9C64-4AD6-9AF5-393C3DC26EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C47431DE-9C64-4AD6-9AF5-393C3DC26EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C47431DE-9C64-4AD6-9AF5-393C3DC26EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FC3EAB-9E4B-46C2-8C04-58FFB182E3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FC3EAB-9E4B-46C2-8C04-58FFB182E3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FC3EAB-9E4B-46C2-8C04-58FFB182E3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FC3EAB-9E4B-46C2-8C04-58FFB182E3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D5B99A8-9E55-4713-91B4-8C0888C1031D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5B99A8-9E55-4713-91B4-8C0888C1031D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5B99A8-9E55-4713-91B4-8C0888C1031D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5B99A8-9E55-4713-91B4-8C0888C1031D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

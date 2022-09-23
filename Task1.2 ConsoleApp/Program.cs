@@ -7,8 +7,7 @@ namespace ConsoleApplication1
         public static void Main(string[] args)
         {
             int i = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Ви ввели число ");
-            Console.Write(i);
+            Console.WriteLine("Ви ввели число {0}", i.ToString());
         }
     }
 }
