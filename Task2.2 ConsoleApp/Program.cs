@@ -123,10 +123,18 @@ namespace Task2._2
             Team k27 = new Team("K27");
             k27.AddMember(yarik);
             k27.AddMember(olexandr);
+            Console.WriteLine("Work day of Yarik:");
             yarik.FillWorkDay();
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("Work day of Olexandr:");
             olexandr.FillWorkDay();
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("Info about Team:");
             k27.ShowInfo();
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("Details about team:");
             k27.ShowDetails();
+            Console.WriteLine("-------------------------");
         }
     }
 }

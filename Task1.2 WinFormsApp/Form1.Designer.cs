@@ -35,20 +35,20 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(135, 91);
+            this.textBox1.Location = new System.Drawing.Point(238, 72);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(268, 80);
+            this.textBox1.Size = new System.Drawing.Size(336, 139);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(150, 198);
+            this.button1.Location = new System.Drawing.Point(286, 271);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(234, 65);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.Text = "Result";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -62,6 +62,7 @@
             this.Controls.Add(this.textBox1);
             this.Location = new System.Drawing.Point(15, 15);
             this.Name = "Form1";
+            this.Text = "HomeTask";
             this.ResumeLayout(false);
             this.PerformLayout();
         }

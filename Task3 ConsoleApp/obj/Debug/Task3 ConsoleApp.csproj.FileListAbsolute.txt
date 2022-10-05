@@ -4,3 +4,9 @@ C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task3 ConsoleApp\obj\Debug\Task
 C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task3 ConsoleApp\obj\Debug\Task3 ConsoleApp.csproj.CoreCompileInputs.cache
 C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task3 ConsoleApp\obj\Debug\Task3_ConsoleApp.exe
 C:\Users\bryuh\RiderProjects\ConsoleApplication1\Task3 ConsoleApp\obj\Debug\Task3_ConsoleApp.pdb
+C:\Users\bryuh\RiderProjects\Homework3\Task3 ConsoleApp\bin\Debug\Task3_ConsoleApp.exe
+C:\Users\bryuh\RiderProjects\Homework3\Task3 ConsoleApp\bin\Debug\Task3_ConsoleApp.pdb
+C:\Users\bryuh\RiderProjects\Homework3\Task3 ConsoleApp\obj\Debug\Task3 ConsoleApp.csprojAssemblyReference.cache
+C:\Users\bryuh\RiderProjects\Homework3\Task3 ConsoleApp\obj\Debug\Task3 ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\bryuh\RiderProjects\Homework3\Task3 ConsoleApp\obj\Debug\Task3_ConsoleApp.exe
+C:\Users\bryuh\RiderProjects\Homework3\Task3 ConsoleApp\obj\Debug\Task3_ConsoleApp.pdb

@@ -4,31 +4,72 @@ namespace Task3_ConsoleApp
 {
     class Converter
     {
-        private double _HrnUsd;
-        private double _HrnEuro;
+        private decimal _usdHrn;
+        private decimal _euroHrn;
 
-        public Converter(double eur, double usd)
+        public Converter(decimal eur, decimal usd)
         {
-            _HrnEuro = eur;
-            _HrnUsd = usd;
+            while (eur<=0 || usd <=0)
+            {
+                Console.WriteLine("Wrong currency rate! Enter again: \n Euro:");
+                string temp = Console.ReadLine();
+                if (decimal.TryParse(temp, out _) && Convert.ToDecimal(temp) > 0) eur = Convert.ToDecimal(temp);
+                Console.WriteLine("Dollar:");
+                 temp = Console.ReadLine();
+                if (decimal.TryParse(temp, out _) && Convert.ToDecimal(temp) > 0) usd = Convert.ToDecimal(temp);
+            }
+            _euroHrn = eur;
+            _usdHrn = usd;
         }
-        public double ConvertToEuro(double hrn)
+        public void ConvertValue()
         {
-            return hrn * _HrnEuro;
-        }
+            Console.WriteLine("Hi! How much money do you want to exchange?");
+            string amount = Console.ReadLine();
+            
+            while (!int.TryParse(amount, out _) && Convert.ToInt32(amount) <= 0)
+            {
+                Console.WriteLine("Something went wrong. Try again:");
+                amount = Console.ReadLine();
+            }
 
-        public double ConvertToUsd(double hrn)
-        {
-            return hrn * _HrnUsd;
+            decimal value = Convert.ToDecimal(amount);
+            while (value <= 0)
+            {
+                Console.WriteLine("Wrong value! Try again:");
+                string temp = Console.ReadLine();
+                if (decimal.TryParse(temp, out _) && Convert.ToDecimal(temp) > 0) value = Convert.ToDecimal(temp);
+            }
+            Console.WriteLine("To exchange from hryvnias to euros, press 0");
+            Console.WriteLine("To exchange from hryvnias to dollars, press 1");
+            Console.WriteLine("To exchange from euros to hryvnias, press 2");
+            Console.WriteLine("To exchange from dollars to hryvnias, press 3");
+            Console.WriteLine("To exit, press 4");
+            while (true)
+            {
+                    string choice = Console.ReadLine();
+                    if (choice == "0")
+                        Console.WriteLine("{0} hryvnias to euro will be {1}", value, Convert.ToInt32(value) / _euroHrn);
+                    if (choice == "1")
+                        Console.WriteLine("{0} hryvnias to usd will be {1}", value, Convert.ToInt32(value) / _usdHrn);
+                    if (choice == "2")
+                        Console.WriteLine("{0} hryvnias to usd will be {1}", value, Convert.ToInt32(value) * _euroHrn);
+                    if (choice == "3")
+                        Console.WriteLine("{0} hryvnias to usd will be {1}", value, Convert.ToInt32(value) * _usdHrn);
+                    if (choice == "4")
+                    {
+                        Console.WriteLine("Goodbye!");
+                        break;
+                    }
+            }
         }
     }
     internal class Program
     {
         public static void Main(string[] args)
         {
-            Converter fst = new Converter(0.028, 0.027);
-            Console.WriteLine("{0} hryvnias to euro will be {1}", 55, fst.ConvertToEuro(55));
-            Console.WriteLine("{0} hryvnias to usd will be {1}", 55, fst.ConvertToUsd(55));
+            Converter fst = new Converter(37, 38);
+            
+            fst.ConvertValue();
         }
     }
 }

@@ -24,8 +24,21 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int i = Convert.ToInt32(textBox1.Text);
-            string message = "Ви ввели число " + Convert.ToString(i);
+            string result = textBox1.Text;
+            string message;
+            if (result == " ")
+            {
+                message = "Введіть правильне значення";
+            }
+
+            else if (int.TryParse(result, out int c))
+            {
+                message = "Ви ввели число " + c;
+            }
+            else
+            {
+                message = "Введіть правильне значення";
+            }
             string caption = "Solution";
             MessageBox.Show(message, caption);
         }

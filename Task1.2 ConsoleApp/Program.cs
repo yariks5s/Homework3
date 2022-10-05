@@ -6,8 +6,13 @@ namespace ConsoleApplication1
     {
         public static void Main(string[] args)
         {
-            int i = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Ви ввели число {0}", i.ToString());
+            string a = Console.ReadLine();
+            while (!int.TryParse(a, out int c))
+            {
+                Console.WriteLine("Ви ввели не число. Спробуйте ще раз:");
+                a = Console.ReadLine();
+            }
+            Console.WriteLine("Ви ввели число {0}", a);
         }
     }
 }
