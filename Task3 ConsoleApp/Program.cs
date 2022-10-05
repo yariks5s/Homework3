@@ -52,7 +52,7 @@ namespace Task3_ConsoleApp
                     if (choice == "1")
                         Console.WriteLine("{0} hryvnias to usd will be {1}", value, Convert.ToInt32(value) / _usdHrn);
                     if (choice == "2")
-                        Console.WriteLine("{0} hryvnias to usd will be {1}", value, Convert.ToInt32(value) * _euroHrn);
+                        Console.WriteLine("{0} hryvnias to euro will be {1}", value, Convert.ToInt32(value) * _euroHrn);
                     if (choice == "3")
                         Console.WriteLine("{0} hryvnias to usd will be {1}", value, Convert.ToInt32(value) * _usdHrn);
                     if (choice == "4")
